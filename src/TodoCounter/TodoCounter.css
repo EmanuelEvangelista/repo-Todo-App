@@ -1,0 +1,42 @@
+h1 {  
+    text-align: center;
+    border-radius: 15px;
+    font-size: 14px;    
+}
+
+.counterConteiner h1 {
+    font-size: 24px;
+}
+
+.counterConteiner h3 {
+    font-size: 20px;
+}
+
+
+.counterConteiner {
+    background: linear-gradient(blue, rgb(236, 90, 65));
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: beige;
+    font-weight: bold;
+    
+    padding: 40px;
+}
+
+.counterConteiner span {
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+   
+    .counterConteiner {
+        background: linear-gradient(blue, rgb(236, 90, 65));
+        margin-bottom: 50px;
+        border-radius: 0%;
+        color: beige;
+        font-weight: bold;      
+    }
+          
+     }

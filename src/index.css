@@ -1,0 +1,18 @@
+body {
+  
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: content-box radial-gradient(rgb(236, 90, 65), blue);
+  background-repeat:inherit;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}

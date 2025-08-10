@@ -1,0 +1,49 @@
+li {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+li p {
+    padding: 15px;
+    padding-left: 50px;
+}
+
+
+
+
+.Icon, p {
+    display: inline-block;
+    
+    
+}
+
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100%-120px);
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+
+.itemContainer {
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .itemConteiner {
+        margin-left: 0px;
+   }
+} 
